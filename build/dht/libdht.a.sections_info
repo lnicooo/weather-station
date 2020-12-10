@@ -1,0 +1,52 @@
+In archive /home/nicooo/Code/esp32/apps/weather_station/build/dht/libdht.a:
+
+dht.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.dht_await_pin_state 0000000c  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.dht_read_data 000000a4  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.dht_read_float_data 00000024  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000108  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000108  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000108  2**0
+                  ALLOC
+  6 .text.dht_await_pin_state 0000003c  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .rodata.str1.4 0000016e  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.dht_read_data 000002a6  00000000  00000000  000002b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.dht_read_float_data 00000071  00000000  00000000  0000055c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .data.mux     00000008  00000000  00000000  000005d0  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .debug_frame  00000058  00000000  00000000  000005d8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_info   00000a84  00000000  00000000  00000630  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_abbrev 00000235  00000000  00000000  000010b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_loc    00000440  00000000  00000000  000012e9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_aranges 00000030  00000000  00000000  00001729  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_ranges 00000068  00000000  00000000  00001759  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_line   000003df  00000000  00000000  000017c1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_str    000005fc  00000000  00000000  00001ba0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 19 .comment      0000003b  00000000  00000000  0000219c  2**0
+                  CONTENTS, READONLY
+ 20 .xtensa.info  00000038  00000000  00000000  000021d7  2**0
+                  CONTENTS, READONLY
+ 21 .xt.lit       00000018  00000000  00000000  0000220f  2**0
+                  CONTENTS, RELOC, READONLY
+ 22 .xt.prop      0000024c  00000000  00000000  00002227  2**0
+                  CONTENTS, RELOC, READONLY
